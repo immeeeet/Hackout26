@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.joblib
+venv/
+.venv/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+*.env
+backend/.env
+frontend/.env.local
+!.env.example
+!backend/.env.example
+!frontend/.env.local.example
+
+# Local Database Files
+*.db
+*.sqlite
+*.sqlite3
+backend/carbonsense.db
+
+# Generated data & exports
+backend/demo_suppliers.csv
+backend/training_data.csv
+backend/export_*.csv
+backend/report_*.pdf
+
+# Test files
+backend/test_*.py
+backend/test_ml.py
+backend/run_schema.py
+
+# Node
+node_modules/
+.next/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
